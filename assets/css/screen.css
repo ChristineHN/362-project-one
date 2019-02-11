@@ -1,3 +1,4 @@
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -8,12 +9,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 
-/*
-  base font-size: 18px
-  base line-height: 22px
-  1.618/Phi is our modular scale:
-  https://www.modularscale.com/?18&px&1.618
-*/
 
 html {
   padding: 0;
