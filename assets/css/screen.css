@@ -39,3 +39,12 @@ body {
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 0.5625em; /* 1.125em / 2 */
 }
+
+h1 {
+  padding: 0.611em 0 0.611em 1.222em; /*1.222/2 = 0.611em*/
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: bold;
+  line-height: 1.375em; /* 44px */
+  color: #7A6A72;
+}
