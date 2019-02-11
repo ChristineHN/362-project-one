@@ -15,21 +15,12 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   https://www.modularscale.com/?18&px&1.618
 */
 
-/* html {
-  background: #222;
-  color: #EEE;
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 1.125em; /* 18 / 16 = 1.125 */
-  /* line-height: 1.2222222222em; /* 22 / 18 = 1.2222222222 */ */
-  /* padding: 1.2222222222em; /* 22 / 18 = 1.2222222222 */ */
-/* }  */
-
 html {
   padding: 0;
   font-family: Roboto, sans-serif;
   font-size: 1.125em; /* 16px = 1em ->18px / 16px = 1.125em */
   line-height: 1.222em;
-  background: url(../images/background.jpg) no-repeat;
+  background: #BE9B81;
 }
 
 body {
@@ -41,10 +32,10 @@ body {
 }
 
 h1 {
-  padding: 0.611em 0 0.611em 1.222em; /*1.222/2 = 0.611em*/
-  font-size: 1.5em;
-  font-style: italic;
-  font-weight: bold;
-  line-height: 1.375em; /* 44px */
+  padding-top: 0.611em; /*1.222/2 = 0.611em*/
+  /* margin: 0.611em 0 0.611em 0; */
+  line-height: 1.222em;
+  font-size: 2.25em; /*1.125 * 3 = 2.25em*/
+  text-align: center;
   color: #7A6A72;
 }
