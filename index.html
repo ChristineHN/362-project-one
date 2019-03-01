@@ -13,27 +13,21 @@
     <p>
       Enter your information below to get access to our software beta test.
     </p>
-    <form id="firstnamelist" action="#null" method="get">
-      <label for="firstname">First Name</label>
-      <input type="text" name="firstname" id="firstname" />
+    <form id="signup">
+      <ol id="info">
+        <li class="userinfo">
+          <label for="fname">Full Name</label>
+          <input type="text" id="fname" name="fname" />
+        </li>
+        <li class="userinfo">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" />
+        </li>
+        <li class="userinfo">
+          <input type="submit" name="signup" id="signup" value="Join Now" />
+        </li>
+      </ol>
     </form>
-    <form id="lastnamelist" action="#null" method="get">
-      <label for="lastname">Last Name</label>
-      <input type="text" name="lastname" id="lastname" />
-    </form>
-    <form id="emaillist" action="#null" method="get">
-      <label for="emailaddress">Email Address</label>
-      <input type="email" name="emailaddress" id="emailaddress" />
-    </form>
-    <form id="occupationlist" action="#null" method="get">
-      <label for="occupation">Occupation</label>
-      <input type="text" name="occupation" id="occupation" />
-    </form>
-    <form id="passwordlist" action="#null" method="get">
-      <label for="password">Password</label>
-      <input type="password" name="password" id="password" />
-    </form>
-    <input type="submit" name="signup" id="signup" value="Join Now" />
   </main>
 <script src="./assets/js/site.js"></script>
 </body>

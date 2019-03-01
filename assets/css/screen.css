@@ -24,10 +24,7 @@ body {
   font-style: normal;
   background-color: rgba(255, 255, 255, 0.5);
   border-radius: 0.5625em; /* 1.125em / 2 */
-  justify-content: center;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  display: block;
 }
 
 h1 {
